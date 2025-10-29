@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+:root {
+    --fundo-claro : #F8F9FA;
+    --fundo-escuro: #121212;
+    --texto-escuro-leve: #635e5e;
+    --texto-escuro: #2B2B2B;
+    --texto-claro: #FFFFFF;
+    --destaque: #ff7f23;
+    --cinza-medio: #B0B0B0;
+    --logo: #032d58;
+}

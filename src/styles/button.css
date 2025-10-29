@@ -1,0 +1,23 @@
+.btn-dft{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--destaque);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+    transition: background-color .4s ease;
+}
+
+.btn-dft:hover{
+    background-color: #ff984e;
+}
+
+mobile-btn-dft {
+    display: none;
+}
+mobile-menu{
+    display: none;
+}

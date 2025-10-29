@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/button.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Bike</title>
+</head>
+<body>
+    <header>
+        <nav id="navBar">
+            <i id="navLogo" class="fa-solid fa-bicycle">bike</i>
+
+            <ul id="navList">
+                <li class="navItem active"> 
+                    <a href="#home">Início</a>
+                </li>
+                <li class="navItem">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="navItem">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-dft">
+                Compre a sua
+            </button>
+
+            <button id="mobile-btn-dft" class="mobile-btn-dft">
+                <i id="iconMenu" class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile-menu">
+             <ul id="mobile-navList">
+                <li class="navItem">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="navItem">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="navItem">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-dft">
+                Compre a sua
+            </button>
+        </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">A bike certa pra 
+                    <span>você</span>
+                </h1>
+                <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, sapiente, voluptatem quis
+                </p> 
+                <div id="cta-buttons">
+
+                </div>
+            </div>
+            <div id="banner"></div>
+        </section>
+    </main>
+
+    <script src="src/javascript/scripts.js"></script>
+</body>
+</html>
