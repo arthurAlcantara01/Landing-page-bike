@@ -52,7 +52,7 @@ ScrollReveal().reveal("#cta", {
     distance: '20%'
 });
 
-ScrollReveal().reveal("#models-bikes", {
+ScrollReveal().reveal(".models-bike", {
     origin: 'left',
     duration: 2000,
     distance: '20%'
