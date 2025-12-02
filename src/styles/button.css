@@ -1,4 +1,4 @@
-.btn-dft{
+.button-dft{
     border: none;
     display: flex;
     align-items: center;
@@ -11,11 +11,11 @@
     transition: background-color .4s ease;
 }
 
-.btn-dft:hover{
+.button-dft:hover{
     background-color: #ff984e;
 }
 
-mobile-btn-dft {
+mobile-button-dft{
     display: none;
 }
 mobile-menu{

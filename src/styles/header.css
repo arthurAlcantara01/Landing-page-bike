@@ -1,6 +1,10 @@
 header{
     width: 100%;
     padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--fundo-claro);
+    z-index: 100;
 }
 
 #navBar {
@@ -33,7 +37,7 @@ header{
 }
 
 
-.mobile-btn-dft {
+.mobile-button-dft {
     display: none;
     border: none;
     background-color: transparent;
@@ -58,10 +62,10 @@ header{
 }
 
 @media screen and (max-width: 1170px){
-    #navList, #navBar .btn-dft{
+    #navList, #navBar .button-dft{
         display: none;
     }
-    .mobile-btn-dft{
+    .mobile-button-dft{
         display: block;
     }
     #mobile-menu.active{

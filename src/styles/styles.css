@@ -1,3 +1,10 @@
+@import url('button.css');
+@import url('header.css');
+@import url('home.css');
+@import url('models.css');
+@import url('testimonials.css');
+@import url('footer.css');
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -6,16 +13,44 @@
 }
 
 body {
-    background-color: var(--fundo);
+    background-color: var(--fundo-claro);
+}
+
+section{
+    padding: 28px 8%;
+}
+
+.buttons-social-midia{
+    display: flex;
+    gap: 18px;
+}
+.buttons-social-midia a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--fundo-escuro);
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.buttons-social-midia a:hover{
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.1);
 }
 
 :root {
-    --fundo-claro : #F8F9FA;
+    --fundo-claro : #eeeeee;
     --fundo-escuro: #121212;
     --texto-escuro-leve: #635e5e;
     --texto-escuro: #2B2B2B;
     --texto-claro: #FFFFFF;
     --destaque: #ff7f23;
+    --destaque2: #cecdcc;
     --cinza-medio: #B0B0B0;
     --logo: #032d58;
 }

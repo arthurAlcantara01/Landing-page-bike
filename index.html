@@ -8,15 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/button.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Bike</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav id="navBar">
             <i id="navLogo" class="fa-solid fa-bicycle">bike</i>
 
@@ -25,18 +21,18 @@
                     <a href="#home">Início</a>
                 </li>
                 <li class="navItem">
-                    <a href="#menu">Cardápio</a>
+                    <a href="#models">Modelos</a>
                 </li>
                 <li class="navItem">
                     <a href="#testimonials">Avaliações</a>
                 </li>
             </ul>
 
-            <button class="btn-dft">
+            <button class="button-dft">
                 Compre a sua
             </button>
 
-            <button id="mobile-btn-dft" class="mobile-btn-dft">
+            <button id="mobile-button-dft" class="mobile-button-dft">
                 <i id="iconMenu" class="fa-solid fa-bars"></i>
             </button>
         </nav>
@@ -47,14 +43,14 @@
                     <a href="#home">Início</a>
                 </li>
                 <li class="navItem">
-                    <a href="#menu">Cardápio</a>
+                    <a href="#models">Modelos</a>
                 </li>
                 <li class="navItem">
                     <a href="#testimonials">Avaliações</a>
                 </li>
             </ul>
 
-            <button class="btn-dft">
+            <button class="button-dft">
                 Compre a sua
             </button>
         </div>
@@ -63,18 +59,250 @@
 
     <main id="content">
         <section id="home">
+            <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">A bike certa pra 
                     <span>você</span>
                 </h1>
-                <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, sapiente, voluptatem quis
+                <p class="description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, sapiente, voluptatem quis
                 </p> 
+                
                 <div id="cta-buttons">
+                    <a href="#" class="button-dft">
+                        Ver modelos
+                    </a>
+                    <a href="tel:+555555555555" id="phone-button">
+                        <button class="button-dft">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (82) 98765-4321
+                    </a>
+                </div>
 
+                <div class="buttons-social-midia">
+                    <a href="link pro zap">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="link pro insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="link pro face">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
                 </div>
             </div>
-            <div id="banner"></div>
+            <div id="banner">
+                <img src="src/img/bikes.png" alt="">
+            </div>
         </section>
+        <section id="models">
+            <h2 class="section-title">Modelos</h2>
+            <h3 class="section-subtitle">Nossos modelos especiais</h3>
+
+            <div id="models-bikes">
+                <div class="models-bike">
+                    <div class="mb-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/bike1.png" alt="">
+
+                    <h3 class="mb-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="mb-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="mb-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>{500+}</span>
+                    </div>
+
+                    <dis class="mb-price">
+                        <h4>R$799,00</h4>
+                        <button class="button-dft">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </dis>
+                </div>
+                
+                <div class="models-bike">
+                    <div class="mb-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/bike2.png" alt="">
+
+                    <h3 class="mb-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="mb-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="mb-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>{500+}</span>
+                    </div>
+
+                    <dis class="mb-price">
+                        <h4>R$1823,50</h4>
+                        <button class="button-dft">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </dis>
+                </div>
+                
+                <div class="models-bike">
+                    <div class="mb-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/bike3.png" alt="">
+
+                    <h3 class="mb-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="mb-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="mb-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>{500+}</span>
+                    </div>
+
+                    <dis class="mb-price">
+                        <h4>R$2.192,18</h4>
+                        <button class="button-dft">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </dis>
+                </div>
+                
+                <div class="models-bike">
+                    <div class="mb-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/img/bike4.png" alt="">
+
+                    <h3 class="mb-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="mb-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="mb-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>{500+}</span>
+                    </div>
+
+                    <dis class="mb-price">
+                        <h4>R$849,90</h4>
+                        <button class="button-dft">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </dis>
+                </div>
+            </div>
+
+        </section>
+        <section id="testimonials">
+            <img class="text-img" src="src/img/testimonialsimg.png" alt="">
+
+            <div id="testimonials-content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitlet">O que os clientes falam sobre nós</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/minhafoto2.jpg" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Arthur Alcântara
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam est, a neque omnis tempore maxime officia expedita reiciendis
+                            </p>                        
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="src/img/minhafoto2.jpg" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Arthur Alcântara
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam est, a neque omnis tempore maxime officia expedita reiciendis
+                            </p>                        
+                        </div>
+                    </div>
+                </div>
+
+                <button class="button-dft">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+        <footer>
+            <img src="src/img/wave.svg" alt="">
+
+            <div class="footer-itens">
+                <span>&copy Arthur Alcântara</span>
+
+                <div class="buttons-social-midia">
+                    <a href="link pro zap">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="link pro insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="link pro face">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </main>
 
     <script src="src/javascript/scripts.js"></script>
